@@ -4,7 +4,7 @@ const jwt=require("jsonwebtoken")
 const { default: mongoose } = require("mongoose")
 const JWT_SECRET="tokenGeneratorSecret"
 
-mongoose.connect("mongodb+srv://ankitsingh:6m6pPDY!-x3tXTp@cluster0.wqx2c.mongodb.net/todo-application-project")
+mongoose.connect("")
 
 
 const app=express();
